@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6727690498ef4cf788e11a47ac8a8cf9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6727690498ef4cf788e11a47ac8a8cf9" ></div>
+        
+</body>
+<script>    
+    
+            var map_6727690498ef4cf788e11a47ac8a8cf9 = L.map(
+                "map_6727690498ef4cf788e11a47ac8a8cf9",
+                {
+                    center: [46.0, 9.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_140ea51fb7aa4e7485ed5fb07f109c47 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var marker_1dbe90aa05fe4a15aaeceb0f636c9ce0 = L.marker(
+                [46.0282080837543, 8.96099643143658],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_1e4ed6e643ff4ec58eefc3a8ae9e6a0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1dbe90aa05fe4a15aaeceb0f636c9ce0.setIcon(icon_1e4ed6e643ff4ec58eefc3a8ae9e6a0c);
+        
+    
+        var popup_6b599fa07af2452b8e28de8b133af8fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b64b0e6a446744679f57bda67600370a = $(`<div id="html_b64b0e6a446744679f57bda67600370a" style="width: 100.0%; height: 100.0%;">air-relative-humidity<br>air-temperature<br>air-heat-index</div>`)[0];
+            popup_6b599fa07af2452b8e28de8b133af8fb.setContent(html_b64b0e6a446744679f57bda67600370a);
+        
+
+        marker_1dbe90aa05fe4a15aaeceb0f636c9ce0.bindPopup(popup_6b599fa07af2452b8e28de8b133af8fb)
+        ;
+
+        
+    
+    
+            var marker_878589b0cfaf474792bcf0293e56f8ad = L.marker(
+                [46.20322, 9.01976],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_e2c605bf224d4f579abc189826c9e6f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_878589b0cfaf474792bcf0293e56f8ad.setIcon(icon_e2c605bf224d4f579abc189826c9e6f3);
+        
+    
+        var popup_afb33ff246ef4224b1880243c41b8af5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_359f1167ae294497a7da8382eb7a0c0b = $(`<div id="html_359f1167ae294497a7da8382eb7a0c0b" style="width: 100.0%; height: 100.0%;">air-rainfall<br>air-temperature<br>air-relative-humidity<br>air-wind-velocity</div>`)[0];
+            popup_afb33ff246ef4224b1880243c41b8af5.setContent(html_359f1167ae294497a7da8382eb7a0c0b);
+        
+
+        marker_878589b0cfaf474792bcf0293e56f8ad.bindPopup(popup_afb33ff246ef4224b1880243c41b8af5)
+        ;
+
+        
+    
+    
+            var marker_209bbb181ee64727bc28f8a2c3169d3e = L.marker(
+                [51.25, 22.67],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_c81f9e3f62994e978496b5c3b88cd488 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_209bbb181ee64727bc28f8a2c3169d3e.setIcon(icon_c81f9e3f62994e978496b5c3b88cd488);
+        
+    
+        var popup_605ae12eb1f647d3916dece02976b960 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df2afc6e11e1442e99723739b6c2ae36 = $(`<div id="html_df2afc6e11e1442e99723739b6c2ae36" style="width: 100.0%; height: 100.0%;">solar-radiation<br>air-wind-velocity<br>air-temperature<br>air-rainfall<br>air-relative-humidity</div>`)[0];
+            popup_605ae12eb1f647d3916dece02976b960.setContent(html_df2afc6e11e1442e99723739b6c2ae36);
+        
+
+        marker_209bbb181ee64727bc28f8a2c3169d3e.bindPopup(popup_605ae12eb1f647d3916dece02976b960)
+        ;
+
+        
+    
+    
+            var marker_d034724703d748f99297f437d3b1ee4b = L.marker(
+                [46.15515, 8.79212],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_b02ed2e2648949e49053b268fbf41158 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d034724703d748f99297f437d3b1ee4b.setIcon(icon_b02ed2e2648949e49053b268fbf41158);
+        
+    
+        var popup_a964cd5f6dfc47c9ba7889cdb310231b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d967dbfc63045d0939ab7d02b8c93dc = $(`<div id="html_2d967dbfc63045d0939ab7d02b8c93dc" style="width: 100.0%; height: 100.0%;">air-temperature<br>air-rainfall</div>`)[0];
+            popup_a964cd5f6dfc47c9ba7889cdb310231b.setContent(html_2d967dbfc63045d0939ab7d02b8c93dc);
+        
+
+        marker_d034724703d748f99297f437d3b1ee4b.bindPopup(popup_a964cd5f6dfc47c9ba7889cdb310231b)
+        ;
+
+        
+    
+    
+            var marker_9abf658e0c784f3fb3a16cdf4a5b8afe = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_7df620668c0947c7971b2273bb6d490c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9abf658e0c784f3fb3a16cdf4a5b8afe.setIcon(icon_7df620668c0947c7971b2273bb6d490c);
+        
+    
+        var popup_917d982433be4c4fab690cf063a49ee0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e6f709f0b06435f899205da2f51cbff = $(`<div id="html_5e6f709f0b06435f899205da2f51cbff" style="width: 100.0%; height: 100.0%;">air-rainfall</div>`)[0];
+            popup_917d982433be4c4fab690cf063a49ee0.setContent(html_5e6f709f0b06435f899205da2f51cbff);
+        
+
+        marker_9abf658e0c784f3fb3a16cdf4a5b8afe.bindPopup(popup_917d982433be4c4fab690cf063a49ee0)
+        ;
+
+        
+    
+    
+            var marker_7df24b47d77d4c3d87de5aaf89606d70 = L.marker(
+                [46.0475436835592, 8.90022754791587],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_50a144b204954e829d96e1f102b27daf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7df24b47d77d4c3d87de5aaf89606d70.setIcon(icon_50a144b204954e829d96e1f102b27daf);
+        
+    
+        var popup_1dc5d433d2e54418adc5e052e34bf902 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8afeebe3c1234ca3951f5d630925e12b = $(`<div id="html_8afeebe3c1234ca3951f5d630925e12b" style="width: 100.0%; height: 100.0%;">air-rainfall</div>`)[0];
+            popup_1dc5d433d2e54418adc5e052e34bf902.setContent(html_8afeebe3c1234ca3951f5d630925e12b);
+        
+
+        marker_7df24b47d77d4c3d87de5aaf89606d70.bindPopup(popup_1dc5d433d2e54418adc5e052e34bf902)
+        ;
+
+        
+    
+    
+            var marker_3813eaea8d674c3095e372d64939a0c4 = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_d3be839e417a429083da3bb96dfb0ff7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3813eaea8d674c3095e372d64939a0c4.setIcon(icon_d3be839e417a429083da3bb96dfb0ff7);
+        
+    
+        var popup_3a89749608d24b799881d2430cc8f639 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fd66a62114445c59f9cc1628a1ae50b = $(`<div id="html_5fd66a62114445c59f9cc1628a1ae50b" style="width: 100.0%; height: 100.0%;">air-rainfall</div>`)[0];
+            popup_3a89749608d24b799881d2430cc8f639.setContent(html_5fd66a62114445c59f9cc1628a1ae50b);
+        
+
+        marker_3813eaea8d674c3095e372d64939a0c4.bindPopup(popup_3a89749608d24b799881d2430cc8f639)
+        ;
+
+        
+    
+    
+            var marker_17c6553b8a1d4113a2d7583051302b45 = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_8e148bcac55a41fb9fddc4594a73dd2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_17c6553b8a1d4113a2d7583051302b45.setIcon(icon_8e148bcac55a41fb9fddc4594a73dd2e);
+        
+    
+        var popup_56bc5981f9b9444da67cc5758b63d835 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0aeae1d216304bf1b1c6aae5f5eced2d = $(`<div id="html_0aeae1d216304bf1b1c6aae5f5eced2d" style="width: 100.0%; height: 100.0%;">air-rainfall</div>`)[0];
+            popup_56bc5981f9b9444da67cc5758b63d835.setContent(html_0aeae1d216304bf1b1c6aae5f5eced2d);
+        
+
+        marker_17c6553b8a1d4113a2d7583051302b45.bindPopup(popup_56bc5981f9b9444da67cc5758b63d835)
+        ;
+
+        
+    
+    
+            var marker_22bc0011c6cd4b7eb123dca169ed6074 = L.marker(
+                [46.20322, 9.01976],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_f48b45d386444150b5497b3098d7671e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_22bc0011c6cd4b7eb123dca169ed6074.setIcon(icon_f48b45d386444150b5497b3098d7671e);
+        
+    
+        var popup_d95615bb35ec4eff9cfc17902c95cc73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea004639cc3b4a5da428599c32768466 = $(`<div id="html_ea004639cc3b4a5da428599c32768466" style="width: 100.0%; height: 100.0%;">Decibel</div>`)[0];
+            popup_d95615bb35ec4eff9cfc17902c95cc73.setContent(html_ea004639cc3b4a5da428599c32768466);
+        
+
+        marker_22bc0011c6cd4b7eb123dca169ed6074.bindPopup(popup_d95615bb35ec4eff9cfc17902c95cc73)
+        ;
+
+        
+    
+    
+            var marker_356ef406e90a45798d1f3e5a241f9720 = L.marker(
+                [46.23339, 9.01939],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_bd987eef579c4dabb399cafd76f5833d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_356ef406e90a45798d1f3e5a241f9720.setIcon(icon_bd987eef579c4dabb399cafd76f5833d);
+        
+    
+        var popup_9e3474da3c27432ea4d8797914e1e623 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51b341e6db904fa5a15f763b02262b12 = $(`<div id="html_51b341e6db904fa5a15f763b02262b12" style="width: 100.0%; height: 100.0%;">river-height</div>`)[0];
+            popup_9e3474da3c27432ea4d8797914e1e623.setContent(html_51b341e6db904fa5a15f763b02262b12);
+        
+
+        marker_356ef406e90a45798d1f3e5a241f9720.bindPopup(popup_9e3474da3c27432ea4d8797914e1e623)
+        ;
+
+        
+    
+    
+            var marker_d02435a157f34a99950cc4c5f744a09b = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_639bd2fa352b44ffa7857de8d0ecb34b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d02435a157f34a99950cc4c5f744a09b.setIcon(icon_639bd2fa352b44ffa7857de8d0ecb34b);
+        
+    
+        var popup_675add1bf360494f969949f64dd87bd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_724595ebb385442f89e71c6bd2263309 = $(`<div id="html_724595ebb385442f89e71c6bd2263309" style="width: 100.0%; height: 100.0%;">air-temperature</div>`)[0];
+            popup_675add1bf360494f969949f64dd87bd1.setContent(html_724595ebb385442f89e71c6bd2263309);
+        
+
+        marker_d02435a157f34a99950cc4c5f744a09b.bindPopup(popup_675add1bf360494f969949f64dd87bd1)
+        ;
+
+        
+    
+    
+            var marker_d483d290973d43aaa88c57fee75c2a2a = L.marker(
+                [46.0475436835592, 8.90022754791587],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_f8f90db8137d4bfcaaeb0883b0a065f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d483d290973d43aaa88c57fee75c2a2a.setIcon(icon_f8f90db8137d4bfcaaeb0883b0a065f8);
+        
+    
+        var popup_aee2430596dd4acbb87bc9655e558404 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3699ee380531442cb8482423adf56573 = $(`<div id="html_3699ee380531442cb8482423adf56573" style="width: 100.0%; height: 100.0%;">air-temperature</div>`)[0];
+            popup_aee2430596dd4acbb87bc9655e558404.setContent(html_3699ee380531442cb8482423adf56573);
+        
+
+        marker_d483d290973d43aaa88c57fee75c2a2a.bindPopup(popup_aee2430596dd4acbb87bc9655e558404)
+        ;
+
+        
+    
+    
+            var marker_4928c8945ab14b26a939405429d1995a = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_98cea89e48b3451bbb88de97dd54088f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4928c8945ab14b26a939405429d1995a.setIcon(icon_98cea89e48b3451bbb88de97dd54088f);
+        
+    
+        var popup_419e2da01dec4c788aee80fd5a920dfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69d1edad600841ed9b1d0acf43511d03 = $(`<div id="html_69d1edad600841ed9b1d0acf43511d03" style="width: 100.0%; height: 100.0%;">box-temperature-internal<br>soil-humidity<br>light<br>air-pressure<br>air-relative-humidity<br>air-temperature<br>air-rainfall<br>wind-direction<br>air-wind-velocity</div>`)[0];
+            popup_419e2da01dec4c788aee80fd5a920dfa.setContent(html_69d1edad600841ed9b1d0acf43511d03);
+        
+
+        marker_4928c8945ab14b26a939405429d1995a.bindPopup(popup_419e2da01dec4c788aee80fd5a920dfa)
+        ;
+
+        
+    
+    
+            var marker_b06443b908424742b863e1901efea94b = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_13b57d1419d94eebb59135b4ebd3e5c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b06443b908424742b863e1901efea94b.setIcon(icon_13b57d1419d94eebb59135b4ebd3e5c1);
+        
+    
+        var popup_6abad1835d084611afde0adedb129bd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf8b50cad092411b982a98dfc200fa03 = $(`<div id="html_cf8b50cad092411b982a98dfc200fa03" style="width: 100.0%; height: 100.0%;">air-temperature</div>`)[0];
+            popup_6abad1835d084611afde0adedb129bd0.setContent(html_cf8b50cad092411b982a98dfc200fa03);
+        
+
+        marker_b06443b908424742b863e1901efea94b.bindPopup(popup_6abad1835d084611afde0adedb129bd0)
+        ;
+
+        
+    
+    
+            var marker_508c9f8a66ec4a62814bd2e472b94e1e = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_975b7836091641f98ef8558a28f17291 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_508c9f8a66ec4a62814bd2e472b94e1e.setIcon(icon_975b7836091641f98ef8558a28f17291);
+        
+    
+        var popup_c7447e1adff34a319271780b2ea54f09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e22f111ed5b74ec58996ccea7f22ef6a = $(`<div id="html_e22f111ed5b74ec58996ccea7f22ef6a" style="width: 100.0%; height: 100.0%;">air-temperature</div>`)[0];
+            popup_c7447e1adff34a319271780b2ea54f09.setContent(html_e22f111ed5b74ec58996ccea7f22ef6a);
+        
+
+        marker_508c9f8a66ec4a62814bd2e472b94e1e.bindPopup(popup_c7447e1adff34a319271780b2ea54f09)
+        ;
+
+        
+    
+    
+            var marker_80e1f32db46f4014b2b8beb6b8ff0517 = L.marker(
+                [46.23339, 9.01939],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_e9d578d7b942429f83db3e4d7b59d687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80e1f32db46f4014b2b8beb6b8ff0517.setIcon(icon_e9d578d7b942429f83db3e4d7b59d687);
+        
+    
+        var popup_f1efb4e867e74432aacf5cb9c0fce47c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33a27e03effd4a48adf1dc6eef0ef17a = $(`<div id="html_33a27e03effd4a48adf1dc6eef0ef17a" style="width: 100.0%; height: 100.0%;">river-discharge</div>`)[0];
+            popup_f1efb4e867e74432aacf5cb9c0fce47c.setContent(html_33a27e03effd4a48adf1dc6eef0ef17a);
+        
+
+        marker_80e1f32db46f4014b2b8beb6b8ff0517.bindPopup(popup_f1efb4e867e74432aacf5cb9c0fce47c)
+        ;
+
+        
+    
+    
+            var marker_5ed48514812f4999b5f29be1dbc25156 = L.marker(
+                [51.25, 22.67],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_e9131aa5f47c4336b8adfb702d293766 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5ed48514812f4999b5f29be1dbc25156.setIcon(icon_e9131aa5f47c4336b8adfb702d293766);
+        
+    
+        var popup_4e12d361dcbd4772a6eae202cf289c5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ff1e2da334742b3b6b642c0ddffcc0b = $(`<div id="html_0ff1e2da334742b3b6b642c0ddffcc0b" style="width: 100.0%; height: 100.0%;">soil-evapotranspiration</div>`)[0];
+            popup_4e12d361dcbd4772a6eae202cf289c5d.setContent(html_0ff1e2da334742b3b6b642c0ddffcc0b);
+        
+
+        marker_5ed48514812f4999b5f29be1dbc25156.bindPopup(popup_4e12d361dcbd4772a6eae202cf289c5d)
+        ;
+
+        
+    
+    
+            var marker_ad6e75e721c04f988d07203a76a35e01 = L.marker(
+                [46.02723, 8.96127],
+                {}
+            ).addTo(map_6727690498ef4cf788e11a47ac8a8cf9);
+        
+    
+            var icon_32bab31bf88e4a5f96a7d6f6549f6af1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ad6e75e721c04f988d07203a76a35e01.setIcon(icon_32bab31bf88e4a5f96a7d6f6549f6af1);
+        
+    
+        var popup_7780237fdb4b4ef28f2ad2bc7559be9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d83261a4c0214fb0b0292324b172451c = $(`<div id="html_d83261a4c0214fb0b0292324b172451c" style="width: 100.0%; height: 100.0%;">air-temperature</div>`)[0];
+            popup_7780237fdb4b4ef28f2ad2bc7559be9c.setContent(html_d83261a4c0214fb0b0292324b172451c);
+        
+
+        marker_ad6e75e721c04f988d07203a76a35e01.bindPopup(popup_7780237fdb4b4ef28f2ad2bc7559be9c)
+        ;
+
+        
+    
+</script>
