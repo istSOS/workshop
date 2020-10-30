@@ -24,6 +24,8 @@ Twitter: @maxicannata
   #### 2.1 __[Familiarize with istSOS](istsos/istsosTutorial.ipynb)__ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/istsos/istsosTutorial.ipynb)
   #### 2.2 __[Homework: register sensor and upload data](istsos/istsosEx1.ipynb)__ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/istsos/istsosEx1.ipynb)
 
+TTT (https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/istsos/test_system_info.ipynb)
+
 ### 3. Open Monitoring Systems
   #### 3.1 __[4onse project](http://www.4onse.org)__
   #### 3.2 __[4onse weather station](http://4onse.org/tutorial/)__
