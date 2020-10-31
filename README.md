@@ -13,7 +13,7 @@ Twitter: @maxicannata
   
 ## Table Of Contents
 ### 0. Open Science
-  #### 0.1 __[Introduction to Open Science and 4onse](OpenScience.pdf)__
+  #### 0.1 __[Introduction to Open Science and 4onse](OpenScience.pdf)__ [https://img.shields.io/badge/PDF-open-black)](https://raw.githubusercontent.com/istSOS/workshop/master/OpenScience.pdf)
 
 ### 1. Introduction to istSOS
   #### 1.1 __[istSOS: a standard sensor data management system](istSOS_overview.pdf)__
