@@ -13,12 +13,12 @@ Twitter: @maxicannata
   
 ## Table Of Contents
 ### 0. Open Science
-  #### 0.1 __[Introduction to Open Science and 4onse](OpenScience.pdf)__ [https://img.shields.io/badge/PDF-open-black)](https://raw.githubusercontent.com/istSOS/workshop/master/OpenScience.pdf)
+  #### 0.1 __[Introduction to Open Science and 4onse](OpenScience.pdf)__ [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/OpenScience.pdf)
 
 ### 1. Introduction to istSOS
-  #### 1.1 __[istSOS: a standard sensor data management system](istSOS_overview.pdf)__
-  #### 1.2 __[istSOS: software features](istSOS-EGU.pdf)__ 
-  #### 1.3 __[OAT library](./oat/oat_tutorial_v4.pdf)__
+  #### 1.1 __[istSOS: a standard sensor data management system](istSOS_overview.pdf)__ [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/istSOS_overview.pdf)
+  #### 1.2 __[istSOS: software features](istSOS-EGU.pdf)__ [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/istSOS-EGU.pdf)
+  #### 1.3 __[OAT library](./oat/oat_tutorial_v4.pdf)__ [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/oat/oat_tutorial_v4.pdf)
 
 ### 2. istSOS practice
   #### 2.1 __[Familiarize with istSOS](istsos/istsosTutorial.ipynb)__ [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/istsos/istsosTutorial.ipynb)
