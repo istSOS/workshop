@@ -27,12 +27,12 @@ Twitter: @maxicannata
 
 
 ### 3. Open Monitoring Systems
-  #### 3.1 __[4onse project](http://www.4onse.org)__
-  #### 3.2 __[4onse weather station](http://4onse.org/tutorial/)__
-  #### 3.3 __[Manipulating real time sensor data](arduino/loading_data.ipynb)__
+  #### 3.1 __[4onse project](http://www.4onse.org)__ > [![](https://img.shields.io/badge/WEB-open_link-green)](http://www.4onse.org)
+  #### 3.2 __[4onse weather station](http://4onse.org/tutorial/)__  > [![](https://img.shields.io/badge/WEB-open_link-green)](http://4onse.org/tutorial/)
+  #### 3.3 __[Manipulating real time sensor data](arduino/loading_data.ipynb)__ > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/arduino/loading_data.ipynb)
 
 ### 4. Time Series Analysis with Python, OAT and istSOS  
-  #### 4.1 __[How to work with istSOS](./oat/example_1.ipynb)__
+  #### 4.1 __[How to work with istSOS](./oat/example_1.ipynb)__  > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/oat/example_1.ipynb)
   #### 4.2 __[River discharge data analysis](./oat/example_2.ipynb)__
   #### 4.3 __[Sensor station mapping](./oat/example_folium.ipynb)__
   #### 4.4 __[Climate Change Machine Learning analysis](./oat/ClimateChangesDIscharges.ipynb)__
