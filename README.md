@@ -33,10 +33,10 @@ Twitter: @maxicannata
 
 ### 4. Time Series Analysis with Python, OAT and istSOS  
   #### 4.1 __[How to work with istSOS](./oat/example_1.ipynb)__  > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/oat/example_1.ipynb)
-  #### 4.2 __[River discharge data analysis](./oat/example_2.ipynb)__
-  #### 4.3 __[Sensor station mapping](./oat/example_folium.ipynb)__
-  #### 4.4 __[Climate Change Machine Learning analysis](./oat/ClimateChangesDIscharges.ipynb)__
-  #### 4.2 __[Rainfall run-off modelling with SmartPy](./oat/example_smartpy.ipynb)__
+  #### 4.2 __[River discharge data analysis](./oat/example_2.ipynb)__  > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/oat/example_2.ipynb)
+  #### 4.3 __[Sensor station mapping](./oat/example_folium.ipynb)__  > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/oat/example_folium.ipynb)
+  #### 4.4 __[Climate Change Machine Learning analysis](./oat/ClimateChangesDIscharges.ipynb)__ > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/oat/ClimateChangesDIscharges.ipynb)
+  #### 4.2 __[Rainfall run-off modelling with SmartPy](./oat/example_smartpy.ipynb)__ > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/oat/example_smartpy.ipynb)
        
 <br>
 <br>
