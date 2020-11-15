@@ -18,7 +18,8 @@ Twitter: @maxicannata
 ### 1. Introduction to istSOS
   #### 1.1 __[istSOS: a standard sensor data management system](istSOS_overview.pdf)__ > [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/istSOS_overview.pdf)
   #### 1.2 __[istSOS: software features](istSOS-EGU.pdf)__ > [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/istSOS-EGU.pdf)
-  #### 1.3 __[OAT library](./oat/oat_tutorial_v4.pdf)__ > [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/oat/oat_tutorial_v4.pdf)
+  #### 1.3 __[OAT library](./oat/oat_tutorial_v4.pdf)__ > [![](https://img.shields.io/badge/PDF-open_or_download-black)](https://raw.githubusercontent.com/istSOS/workshop/master/oat/oat_tutorial_v4.pdf) | [![](https://img.shields.io/static/v1?logo=gitlab&label=repo&message=on_GitLab&color=orange)](https://gitlab.com/ist-supsi/OAT.git)
+
 
 ### 2. istSOS practice
   #### 2.1 __[Familiarize with istSOS](istsos/istsosTutorial.ipynb)__ > [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/istSOS/workshop/blob/master/istsos/istsosTutorial.ipynb)
